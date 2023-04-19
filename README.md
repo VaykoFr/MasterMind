@@ -1,3 +1,4 @@
 # MasterMind
 V1.0
-coucou c'est moi tchoupi (blyat)
+Coucou ici c'est les cités de france le s 
+On va faire un MasterMind t'as capté le sang
