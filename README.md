@@ -1,4 +1,4 @@
 # MasterMind
 V1.0
 Coucou ici c'est les cités de france le s 
-On va faire un MasterMind t'as capté le sang
+On va faire un MasterMind t'as capté le sang (créteil représente)
