@@ -1,3 +1,3 @@
 # MasterMind
 V1.0
-coucou c'est moi tchoupi
+coucou c'est moi tchoupi (blyat)
