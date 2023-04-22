@@ -5,7 +5,7 @@ Imports Newtonsoft.Json
 Public Class Form1
 
     Dim stats As System.IO.StreamWriter
-    stats = My.Computer.FileSystem.OpenTextFileWriter("Stats\playerStats.txt", True)
+    stats = My.Computer.FileSystem.OpenTextFileWriter("Stats\PlayerStat.txt", True)
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
