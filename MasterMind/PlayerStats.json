@@ -1,0 +1,16 @@
+[
+  {
+    "pseudo": "Joueur1",
+    "stats": {
+      "score": 100,
+      "niveau": 2
+    }
+  },
+  {
+    "pseudo": "Joueur2",
+    "stats": {
+      "score": 200,
+      "niveau": 3
+    }
+  }
+]
