@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{50C5D469-A98F-4AA1-BEE2-312929536CF3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>masterMind.My.MyApplication</StartupObject>
-    <RootNamespace>masterMind</RootNamespace>
-    <AssemblyName>masterMind</AssemblyName>
+    <StartupObject>MasterMind.My.MyApplication</StartupObject>
+    <RootNamespace>MasterMind</RootNamespace>
+    <AssemblyName>MasterMind</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>masterMind.xml</DocumentationFile>
+    <DocumentationFile>MasterMind.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>masterMind.xml</DocumentationFile>
+    <DocumentationFile>MasterMind.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>

@@ -4,6 +4,7 @@
     Private Sub GuessPattern_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LabelCharacter.Text = Module1.possibleCharacter
         LabelTryLeft.Text = Module1.numberOfTry
+        Me.Text = "Devine !"
     End Sub
     Private Sub TimerGuess_Tick(sender As Object, e As EventArgs) Handles TimerGuess.Tick
         timeLeft = timeLeft - 1
@@ -56,4 +57,14 @@
         Me.Hide()
         Accueil.Show()
     End Sub
+
+
+    Private Sub txtFinalCase_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox5.KeyPress
+        If e.KeyChar = Microsoft.VisualBasic.ChrW(Keys.Return) Then
+            ButtonGuess.PerformClick()
+            e.Handled = True
+        End If
+    End Sub
+
+
 End Class
