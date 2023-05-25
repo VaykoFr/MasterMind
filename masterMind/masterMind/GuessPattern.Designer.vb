@@ -62,6 +62,7 @@ Partial Class GuessPattern
         'TextBox5
         '
         Me.TextBox5.Location = New System.Drawing.Point(197, 48)
+        Me.TextBox5.MaxLength = 1
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(35, 26)
         Me.TextBox5.TabIndex = 4
@@ -69,6 +70,7 @@ Partial Class GuessPattern
         'TextBox4
         '
         Me.TextBox4.Location = New System.Drawing.Point(156, 48)
+        Me.TextBox4.MaxLength = 1
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(35, 26)
         Me.TextBox4.TabIndex = 3
@@ -76,6 +78,7 @@ Partial Class GuessPattern
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(114, 48)
+        Me.TextBox3.MaxLength = 1
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(36, 26)
         Me.TextBox3.TabIndex = 2
@@ -83,6 +86,7 @@ Partial Class GuessPattern
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(71, 48)
+        Me.TextBox2.MaxLength = 1
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(37, 26)
         Me.TextBox2.TabIndex = 1

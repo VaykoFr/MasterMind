@@ -5,7 +5,11 @@
     Public time As Integer = 90
     Public patternToGuess(4) As Char
     Public gameNumber As Integer = 0
-    Public listOfPlayer As Dictionary(Of String, List(Of Integer))
+    Public listOfPlayer As Dictionary(Of String, Integer()) = New Dictionary(Of String, Integer())
+
+    Public Sub loadData()
+
+    End Sub
 
     Public Sub saveData()
 
@@ -35,10 +39,10 @@
 
     Public Sub result(timeLeft As Integer, found As Boolean)
         If Not listOfPlayer.ContainsKey(players(0)) Then
-            listOfPlayer.Add(players(0), New List(Of Integer)(capacity:=5))
+            listOfPlayer.Add(players(0), New Integer() {0, 0, 0, 0, 0})
         End If
 
-        Dim player1Data As List(Of Integer) = listOfPlayer.Values(players(0))
+        Dim player1Data As Integer() = listOfPlayer(players(0))
         player1Data(4) = player1Data(4) + (time - timeLeft)
         player1Data(2) = player1Data(2) + 1
         If found Then
@@ -49,9 +53,9 @@
         End If
         listOfPlayer(players(0)) = player1Data
         If Not listOfPlayer.ContainsKey(players(1)) Then
-            listOfPlayer.Add(players(1), New List(Of Integer)(capacity:=5))
+            listOfPlayer.Add(players(1), New Integer() {0, 0, 0, 0, 0})
         End If
-        Dim player2Data As List(Of Integer) = listOfPlayer.Values(players(1))
+        Dim player2Data As Integer() = listOfPlayer(players(1))
         player2Data(3) = player2Data(3) + 1
     End Sub
 

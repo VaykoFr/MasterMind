@@ -12,3 +12,4 @@ C:\Users\flori\source\repos\masterMind\masterMind\obj\Debug\masterMind.pdb
 C:\Users\flori\source\repos\masterMind\masterMind\obj\Debug\masterMind.Accueil.resources
 C:\Users\flori\source\repos\masterMind\masterMind\obj\Debug\masterMind.SelectPattern.resources
 C:\Users\flori\source\repos\masterMind\masterMind\obj\Debug\masterMind.GuessPattern.resources
+C:\Users\flori\source\repos\masterMind\masterMind\obj\Debug\masterMind.StatisticPlayer.resources

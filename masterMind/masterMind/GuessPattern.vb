@@ -53,7 +53,7 @@
     Private Sub ButtonLeave_Click(sender As Object, e As EventArgs) Handles ButtonLeave.Click
         Module1.result(timeLeft, find)
         Module1.nextGame()
-        Me.Hide()
+        Me.Close()
         Accueil.Show()
     End Sub
 End Class

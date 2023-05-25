@@ -22,12 +22,14 @@ Partial Class Accueil
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.ComboBoxPlayer1 = New System.Windows.Forms.ComboBox()
         Me.ComboBoxPlayer2 = New System.Windows.Forms.ComboBox()
         Me.ButtonScore = New System.Windows.Forms.Button()
         Me.ButtonExit = New System.Windows.Forms.Button()
         Me.ButtonStart = New System.Windows.Forms.Button()
         Me.LabelApp = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'ComboBoxPlayer1
@@ -82,6 +84,11 @@ Partial Class Accueil
         Me.LabelApp.TabIndex = 5
         Me.LabelApp.Text = "MASTER MIND"
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 500
+        '
         'Accueil
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -106,4 +113,5 @@ Partial Class Accueil
     Friend WithEvents ButtonExit As Button
     Friend WithEvents ButtonStart As Button
     Friend WithEvents LabelApp As Label
+    Friend WithEvents Timer1 As Timer
 End Class

@@ -109,6 +109,12 @@
     <Compile Include="SelectPattern.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="StatisticPlayer.Designer.vb">
+      <DependentUpon>StatisticPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Accueil.resx">
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SelectPattern.resx">
       <DependentUpon>SelectPattern.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticPlayer.resx">
+      <DependentUpon>StatisticPlayer.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

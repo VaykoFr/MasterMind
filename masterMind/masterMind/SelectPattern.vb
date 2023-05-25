@@ -6,7 +6,7 @@
     Private Sub ButtonHide_Click(sender As Object, e As EventArgs) Handles ButtonHide.Click
         If verifyCorrectCombinaison() Then
             Module1.registerPattern(PanelPattern)
-            Me.Hide()
+            Me.Close()
             GuessPattern.Show()
         Else
             MsgBox("incorrect Character")
