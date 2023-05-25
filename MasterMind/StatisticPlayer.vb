@@ -4,5 +4,6 @@
 
         Next
         Me.Text = "Tableau des scores"
+        Me.onsefout
     End Sub
 End Class
