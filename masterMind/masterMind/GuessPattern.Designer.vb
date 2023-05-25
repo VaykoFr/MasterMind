@@ -43,6 +43,7 @@ Partial Class GuessPattern
         Me.LabelTryLeft = New System.Windows.Forms.Label()
         Me.LabelPossibleCharacter = New System.Windows.Forms.Label()
         Me.LabelCharacter = New System.Windows.Forms.Label()
+        Me.LabelFind = New System.Windows.Forms.Label()
         Me.PanelGuess.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -136,13 +137,13 @@ Partial Class GuessPattern
         '
         'ButtonLeave
         '
-        Me.ButtonLeave.Enabled = False
         Me.ButtonLeave.Location = New System.Drawing.Point(440, 677)
         Me.ButtonLeave.Name = "ButtonLeave"
         Me.ButtonLeave.Size = New System.Drawing.Size(165, 91)
         Me.ButtonLeave.TabIndex = 5
         Me.ButtonLeave.Text = "Bye"
         Me.ButtonLeave.UseVisualStyleBackColor = True
+        Me.ButtonLeave.Visible = False
         '
         'LabelCodeCouleur
         '
@@ -218,11 +219,23 @@ Partial Class GuessPattern
         Me.LabelCharacter.TabIndex = 13
         Me.LabelCharacter.Text = "Label"
         '
+        'LabelFind
+        '
+        Me.LabelFind.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelFind.Location = New System.Drawing.Point(399, 562)
+        Me.LabelFind.Name = "LabelFind"
+        Me.LabelFind.Size = New System.Drawing.Size(209, 83)
+        Me.LabelFind.TabIndex = 14
+        Me.LabelFind.Text = "Trouvé!"
+        Me.LabelFind.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelFind.Visible = False
+        '
         'GuessPattern
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(657, 806)
+        Me.Controls.Add(Me.LabelFind)
         Me.Controls.Add(Me.LabelCharacter)
         Me.Controls.Add(Me.LabelPossibleCharacter)
         Me.Controls.Add(Me.LabelTryLeft)
@@ -266,4 +279,5 @@ Partial Class GuessPattern
     Friend WithEvents LabelTryLeft As Label
     Friend WithEvents LabelPossibleCharacter As Label
     Friend WithEvents LabelCharacter As Label
+    Friend WithEvents LabelFind As Label
 End Class
