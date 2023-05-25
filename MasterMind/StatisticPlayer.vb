@@ -3,6 +3,6 @@
         For Each key As String In Module1.listOfPlayer.Keys
 
         Next
-        Me.Text = "Tableau des scores"
+        Me.Text = "Tableau des scorese"
     End Sub
 End Class
