@@ -1,6 +1,7 @@
 ﻿Public Class SelectPattern
     Private Sub SelectPattern_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LabelCharacter.Text = Module1.possibleCharacter
+        Me.Text = "Fait deviner !"
     End Sub
 
     Private Sub ButtonHide_Click(sender As Object, e As EventArgs) Handles ButtonHide.Click
@@ -9,7 +10,7 @@
             Me.Hide()
             GuessPattern.Show()
         Else
-            MsgBox("incorrect Character")
+            MsgBox("Incorrect Character")
         End If
     End Sub
 
@@ -23,4 +24,12 @@
         Next
         Return True
     End Function
+
+    Private Sub txtFinalCase_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox5.KeyPress
+        If e.KeyChar = Microsoft.VisualBasic.ChrW(Keys.Return) Then
+            ButtonHide.PerformClick()
+            e.Handled = True
+        End If
+    End Sub
+
 End Class

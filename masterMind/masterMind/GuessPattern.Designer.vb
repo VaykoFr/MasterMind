@@ -54,54 +54,65 @@ Partial Class GuessPattern
         Me.PanelGuess.Controls.Add(Me.TextBox3)
         Me.PanelGuess.Controls.Add(Me.TextBox2)
         Me.PanelGuess.Controls.Add(Me.TextBox1)
-        Me.PanelGuess.Location = New System.Drawing.Point(64, 43)
+        Me.PanelGuess.Location = New System.Drawing.Point(43, 28)
+        Me.PanelGuess.Margin = New System.Windows.Forms.Padding(2)
         Me.PanelGuess.Name = "PanelGuess"
-        Me.PanelGuess.Size = New System.Drawing.Size(267, 112)
+        Me.PanelGuess.Size = New System.Drawing.Size(178, 155)
         Me.PanelGuess.TabIndex = 0
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(197, 48)
+        Me.TextBox5.Location = New System.Drawing.Point(131, 31)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox5.MaxLength = 1
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(35, 26)
+        Me.TextBox5.Size = New System.Drawing.Size(25, 20)
         Me.TextBox5.TabIndex = 4
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(156, 48)
+        Me.TextBox4.Location = New System.Drawing.Point(104, 31)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox4.MaxLength = 1
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(35, 26)
+        Me.TextBox4.Size = New System.Drawing.Size(25, 20)
         Me.TextBox4.TabIndex = 3
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(114, 48)
+        Me.TextBox3.Location = New System.Drawing.Point(76, 31)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox3.MaxLength = 1
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(36, 26)
+        Me.TextBox3.Size = New System.Drawing.Size(25, 20)
         Me.TextBox3.TabIndex = 2
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(71, 48)
+        Me.TextBox2.Location = New System.Drawing.Point(47, 31)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox2.MaxLength = 1
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(37, 26)
+        Me.TextBox2.Size = New System.Drawing.Size(26, 20)
         Me.TextBox2.TabIndex = 1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(28, 48)
+        Me.TextBox1.Location = New System.Drawing.Point(19, 31)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.MaxLength = 1
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(37, 26)
+        Me.TextBox1.Size = New System.Drawing.Size(26, 20)
         Me.TextBox1.TabIndex = 0
         '
         'ButtonGuess
         '
-        Me.ButtonGuess.Location = New System.Drawing.Point(404, 71)
+        Me.ButtonGuess.Location = New System.Drawing.Point(289, 47)
+        Me.ButtonGuess.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonGuess.Name = "ButtonGuess"
-        Me.ButtonGuess.Size = New System.Drawing.Size(119, 66)
+        Me.ButtonGuess.Size = New System.Drawing.Size(79, 43)
         Me.ButtonGuess.TabIndex = 1
-        Me.ButtonGuess.Text = "Guess"
+        Me.ButtonGuess.Text = "Deviner"
         Me.ButtonGuess.UseVisualStyleBackColor = True
         '
         'TimerGuess
@@ -112,54 +123,60 @@ Partial Class GuessPattern
         'LabelTimer
         '
         Me.LabelTimer.AutoSize = True
-        Me.LabelTimer.Location = New System.Drawing.Point(398, 502)
+        Me.LabelTimer.Location = New System.Drawing.Point(269, 325)
+        Me.LabelTimer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelTimer.Name = "LabelTimer"
-        Me.LabelTimer.Size = New System.Drawing.Size(119, 20)
+        Me.LabelTimer.Size = New System.Drawing.Size(80, 13)
         Me.LabelTimer.TabIndex = 2
         Me.LabelTimer.Text = "Temps restant :"
         '
         'Timer
         '
         Me.Timer.AutoSize = True
-        Me.Timer.Location = New System.Drawing.Point(524, 502)
+        Me.Timer.Location = New System.Drawing.Point(349, 326)
+        Me.Timer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Timer.Name = "Timer"
-        Me.Timer.Size = New System.Drawing.Size(0, 20)
+        Me.Timer.Size = New System.Drawing.Size(0, 13)
         Me.Timer.TabIndex = 3
         '
         'LabelTimeLeft
         '
         Me.LabelTimeLeft.AutoSize = True
-        Me.LabelTimeLeft.Location = New System.Drawing.Point(523, 502)
+        Me.LabelTimeLeft.Location = New System.Drawing.Point(353, 325)
+        Me.LabelTimeLeft.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelTimeLeft.Name = "LabelTimeLeft"
-        Me.LabelTimeLeft.Size = New System.Drawing.Size(48, 20)
+        Me.LabelTimeLeft.Size = New System.Drawing.Size(13, 13)
         Me.LabelTimeLeft.TabIndex = 4
-        Me.LabelTimeLeft.Text = "Label"
+        Me.LabelTimeLeft.Text = "0"
         '
         'ButtonLeave
         '
-        Me.ButtonLeave.Location = New System.Drawing.Point(440, 677)
+        Me.ButtonLeave.Location = New System.Drawing.Point(279, 435)
+        Me.ButtonLeave.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonLeave.Name = "ButtonLeave"
-        Me.ButtonLeave.Size = New System.Drawing.Size(165, 91)
+        Me.ButtonLeave.Size = New System.Drawing.Size(110, 59)
         Me.ButtonLeave.TabIndex = 5
-        Me.ButtonLeave.Text = "Bye"
+        Me.ButtonLeave.Text = "Terminé"
         Me.ButtonLeave.UseVisualStyleBackColor = True
         Me.ButtonLeave.Visible = False
         '
         'LabelCodeCouleur
         '
         Me.LabelCodeCouleur.AutoSize = True
-        Me.LabelCodeCouleur.Location = New System.Drawing.Point(436, 169)
+        Me.LabelCodeCouleur.Location = New System.Drawing.Point(291, 110)
+        Me.LabelCodeCouleur.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelCodeCouleur.Name = "LabelCodeCouleur"
-        Me.LabelCodeCouleur.Size = New System.Drawing.Size(114, 20)
+        Me.LabelCodeCouleur.Size = New System.Drawing.Size(77, 13)
         Me.LabelCodeCouleur.TabIndex = 6
         Me.LabelCodeCouleur.Text = "Code Couleur :"
         '
         'LabelMiss
         '
         Me.LabelMiss.AutoSize = True
-        Me.LabelMiss.Location = New System.Drawing.Point(459, 202)
+        Me.LabelMiss.Location = New System.Drawing.Point(306, 131)
+        Me.LabelMiss.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelMiss.Name = "LabelMiss"
-        Me.LabelMiss.Size = New System.Drawing.Size(60, 20)
+        Me.LabelMiss.Size = New System.Drawing.Size(40, 13)
         Me.LabelMiss.TabIndex = 7
         Me.LabelMiss.Text = "Absent"
         '
@@ -167,9 +184,10 @@ Partial Class GuessPattern
         '
         Me.LabelPresent.AutoSize = True
         Me.LabelPresent.ForeColor = System.Drawing.Color.Blue
-        Me.LabelPresent.Location = New System.Drawing.Point(459, 232)
+        Me.LabelPresent.Location = New System.Drawing.Point(306, 151)
+        Me.LabelPresent.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelPresent.Name = "LabelPresent"
-        Me.LabelPresent.Size = New System.Drawing.Size(64, 20)
+        Me.LabelPresent.Size = New System.Drawing.Size(43, 13)
         Me.LabelPresent.TabIndex = 8
         Me.LabelPresent.Text = "Présent"
         '
@@ -177,54 +195,60 @@ Partial Class GuessPattern
         '
         Me.Label1.AutoSize = True
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(412, 261)
+        Me.Label1.Location = New System.Drawing.Point(275, 170)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(158, 20)
+        Me.Label1.Size = New System.Drawing.Size(107, 13)
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "Présent et bien placé"
         '
         'LabelTry
         '
         Me.LabelTry.AutoSize = True
-        Me.LabelTry.Location = New System.Drawing.Point(414, 420)
+        Me.LabelTry.Location = New System.Drawing.Point(276, 273)
+        Me.LabelTry.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelTry.Name = "LabelTry"
-        Me.LabelTry.Size = New System.Drawing.Size(109, 20)
+        Me.LabelTry.Size = New System.Drawing.Size(73, 13)
         Me.LabelTry.TabIndex = 10
         Me.LabelTry.Text = "Coup restant :"
         '
         'LabelTryLeft
         '
         Me.LabelTryLeft.AutoSize = True
-        Me.LabelTryLeft.Location = New System.Drawing.Point(530, 420)
+        Me.LabelTryLeft.Location = New System.Drawing.Point(353, 273)
+        Me.LabelTryLeft.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelTryLeft.Name = "LabelTryLeft"
-        Me.LabelTryLeft.Size = New System.Drawing.Size(48, 20)
+        Me.LabelTryLeft.Size = New System.Drawing.Size(13, 13)
         Me.LabelTryLeft.TabIndex = 11
-        Me.LabelTryLeft.Text = "Label"
+        Me.LabelTryLeft.Text = "0"
         '
         'LabelPossibleCharacter
         '
         Me.LabelPossibleCharacter.AutoSize = True
-        Me.LabelPossibleCharacter.Location = New System.Drawing.Point(414, 317)
+        Me.LabelPossibleCharacter.Location = New System.Drawing.Point(276, 206)
+        Me.LabelPossibleCharacter.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelPossibleCharacter.Name = "LabelPossibleCharacter"
-        Me.LabelPossibleCharacter.Size = New System.Drawing.Size(143, 20)
+        Me.LabelPossibleCharacter.Size = New System.Drawing.Size(107, 13)
         Me.LabelPossibleCharacter.TabIndex = 12
-        Me.LabelPossibleCharacter.Text = "Possible character:"
+        Me.LabelPossibleCharacter.Text = "Caractères possibles:"
         '
         'LabelCharacter
         '
         Me.LabelCharacter.AutoSize = True
-        Me.LabelCharacter.Location = New System.Drawing.Point(463, 341)
+        Me.LabelCharacter.Location = New System.Drawing.Point(309, 222)
+        Me.LabelCharacter.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelCharacter.Name = "LabelCharacter"
-        Me.LabelCharacter.Size = New System.Drawing.Size(48, 20)
+        Me.LabelCharacter.Size = New System.Drawing.Size(28, 13)
         Me.LabelCharacter.TabIndex = 13
-        Me.LabelCharacter.Text = "Label"
+        Me.LabelCharacter.Text = "XXX"
         '
         'LabelFind
         '
         Me.LabelFind.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelFind.Location = New System.Drawing.Point(399, 562)
+        Me.LabelFind.Location = New System.Drawing.Point(263, 365)
+        Me.LabelFind.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelFind.Name = "LabelFind"
-        Me.LabelFind.Size = New System.Drawing.Size(209, 83)
+        Me.LabelFind.Size = New System.Drawing.Size(139, 54)
         Me.LabelFind.TabIndex = 14
         Me.LabelFind.Text = "Trouvé!"
         Me.LabelFind.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -232,9 +256,9 @@ Partial Class GuessPattern
         '
         'GuessPattern
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(657, 806)
+        Me.ClientSize = New System.Drawing.Size(438, 524)
         Me.Controls.Add(Me.LabelFind)
         Me.Controls.Add(Me.LabelCharacter)
         Me.Controls.Add(Me.LabelPossibleCharacter)
@@ -250,6 +274,7 @@ Partial Class GuessPattern
         Me.Controls.Add(Me.LabelTimer)
         Me.Controls.Add(Me.ButtonGuess)
         Me.Controls.Add(Me.PanelGuess)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "GuessPattern"
         Me.Text = "GuessPattern"
         Me.PanelGuess.ResumeLayout(False)
